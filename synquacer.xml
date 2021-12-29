@@ -17,8 +17,8 @@
 
         <!-- Misc gits -->
         <project path="SCP-firmware"         name="ARM-software/SCP-firmware.git"         revision="56d4f515bcf1bc1b843abe343e9cf9dc44898ca2" />
-        <project path="edk2"                 name="leg/noupstream/edk2.git"                    revision="872f953262d68a11da7bc2fb3ded16df234b8700" remote="linaro" />
-        <project path="edk2-non-osi"         name="leg/noupstream/edk2-non-osi.git"            revision="d580026dbbe87c081dce26b1872df83fa79cd740" remote="linaro" />
-        <project path="edk2-platforms"       name="leg/noupstream/edk2-platforms.git"          revision="70b8b7c3caa8fcb8c46f40d6e5e9212b8f8bc0e9" remote="linaro" />
+        <project path="edk2"                 name="leg/noupstream/edk2"                    revision="872f953262d68a11da7bc2fb3ded16df234b8700" remote="linaro" />
+        <project path="edk2-non-osi"         name="leg/noupstream/edk2-non-osi"            revision="d580026dbbe87c081dce26b1872df83fa79cd740" remote="linaro" />
+        <project path="edk2-platforms"       name="leg/noupstream/edk2-platforms"          revision="70b8b7c3caa8fcb8c46f40d6e5e9212b8f8bc0e9" remote="linaro" />
         <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="refs/tags/v2.2" clone-depth="1" remote="tfo"/>
 </manifest>
