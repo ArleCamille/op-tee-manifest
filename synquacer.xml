@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote name="github"   fetch="https://github.com" />
+        <remote name="github-private" fetch="ssh://git@github.com" />
         <remote name="tfo"      fetch="https://git.trustedfirmware.org" />
 
         <default remote="github" revision="master" />
 
         <!-- OP-TEE gits -->
         <project path="optee_client"         name="OP-TEE/optee_client.git" />
-        <project path="optee_os"             name="OP-TEE/optee_os.git" />
+        <project path="optee_os"              name="ArleCamille/optee_os.git" revision="sopencl" remote="github-private" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" />
         <project path="build"                name="OP-TEE/build.git">
                 <linkfile src="synquacer.mk" dest="build/Makefile" />
