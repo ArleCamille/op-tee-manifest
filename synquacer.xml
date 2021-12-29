@@ -3,6 +3,7 @@
         <remote name="github"   fetch="https://github.com" />
         <remote name="github-private" fetch="ssh://git@github.com" />
         <remote name="tfo"      fetch="https://git.trustedfirmware.org" />
+        <remote name="linaro"   fetch="git://git.linaro.org" />
 
         <default remote="github" revision="master" />
 
@@ -16,8 +17,8 @@
 
         <!-- Misc gits -->
         <project path="SCP-firmware"         name="ARM-software/SCP-firmware.git"         revision="56d4f515bcf1bc1b843abe343e9cf9dc44898ca2" />
-        <project path="edk2"                 name="tianocore/edk2.git"                    revision="21d9dc21f81828538af02ca9c2d86a36551b0771" />
-        <project path="edk2-non-osi"         name="tianocore/edk2-non-osi.git"            revision="596043ffb61d5f74a9eb334eaa4df683fa975c92" />
-        <project path="edk2-platforms"       name="tianocore/edk2-platforms.git"          revision="22d5f499135a0b43bfb723a983f93c3148d68494" />
+        <project path="edk2"                 name="leg/noupstream/edk2.git"                    revision="872f953262d68a11da7bc2fb3ded16df234b8700" remote="linaro" />
+        <project path="edk2-non-osi"         name="leg/noupstream/edk2-non-osi.git"            revision="d580026dbbe87c081dce26b1872df83fa79cd740" remote="linaro" />
+        <project path="edk2-platforms"       name="leg/noupstream/edk2-platforms.git"          revision="70b8b7c3caa8fcb8c46f40d6e5e9212b8f8bc0e9" remote="linaro" />
         <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="refs/tags/v2.2" clone-depth="1" remote="tfo"/>
 </manifest>
